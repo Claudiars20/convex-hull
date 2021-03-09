@@ -1,0 +1,117 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 100%;
+    min-height: 700px;
+    overflow-x: hidden;
+    background: #32495E;
+}
+
+aside {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 20%;
+    z-index: 5;  
+}
+
+aside .titulo{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background: #32495E;
+}
+aside .titulo a{
+    color: white;
+    padding: 40px 60px 40px 60px;
+}
+aside .lista{
+    background-color: #32495E;
+}
+aside .Siseleccionado{
+    border-left: #367BF5 5px solid;
+    background-color: #E5EFFF;
+    border-radius: 0px 15px 15px 0px;
+}
+aside .Siseleccionado a{
+    color: #000000;
+    padding: 15px 15px;
+}
+aside .Siseleccionado a:hover{
+    background-color: #E5EFFF;
+    border-radius: 0px 15px 15px 0px;
+    color:#32495E;
+}
+
+aside .Noseleccionado{
+    border-left: #32495E 5px solid;
+    background-color: #32495E;
+}
+aside .Noseleccionado a{
+    color: white;
+    padding: 15px 15px;
+}
+
+aside .Noseleccionado a:hover{
+    opacity: 0.5;
+    background-color: #E5EFFF;
+    border-radius: 0px 15px 15px 0px;
+    color:#000000;
+}
+
+aside p {
+    padding: 0 20px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.usage {
+    margin: 10px 360px 10px 30px;
+}
+
+.pure-menu-selected {
+    background-color: #E5EFFF;
+}
+
+main a {
+    text-decoration: none;
+    color: inherit;
+}
+main a:hover {
+    color: #999;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#map-canvas, #map_canvas {
+    height: 100%;
+    min-height: 700px;
+    font-size: 11px;
+    
+}
+
+
+@media print {
+    html, body {
+        height: auto;
+    }
+
+
+    #map_canvas {
+        height: 650px;
+    }
+}
+
