@@ -8,14 +8,30 @@ body {
     min-height: 700px;
     overflow-x: hidden;
     background: #32495E;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
 
 aside {
     position: absolute;
     right: 0;
     top: 0;
     max-width: 20%;
-    z-index: 5;  
+    z-index: 5;
+    background: #32495E;  
+}
+
+
+
+aside .descripcion{
+    background: #32495E;
+    text-align: center; 
+}
+
+aside .descripcion a{
+    color: white; 
+    
 }
 
 aside .titulo{
@@ -25,8 +41,9 @@ aside .titulo{
     background: #32495E;
 }
 aside .titulo a{
+    border-top: white dashed 1px;
     color: white;
-    padding: 40px 60px 40px 60px;
+    padding: 20px 60px 20px 60px;
 }
 aside .lista{
     background-color: #32495E;

@@ -15,7 +15,7 @@ function initialize() {
     var centroPunto = new google.maps.LatLng(-13.56950591296607, -71.82804934372858);
 
     var mapaOpciones = {
-        zoom: 19,
+        zoom: 18,
         center: centroPunto,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };

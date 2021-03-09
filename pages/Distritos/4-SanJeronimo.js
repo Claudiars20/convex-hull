@@ -32,7 +32,7 @@ function initialize() {
     var centroPunto = new google.maps.LatLng(-13.543348838811458, -71.88804843975257);
 
     var mapaOpciones = {
-        zoom: 19,
+        zoom: 18,
         center: centroPunto,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
